@@ -585,7 +585,8 @@ body {
 }
 
 .header__nav-link {
-  color: var(--color-text-soft);
+  /* color: var(--color-text-soft); */
+  color:red;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
