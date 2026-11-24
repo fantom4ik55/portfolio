@@ -575,11 +575,13 @@ body {
 
 .header__nav {
   display: flex;
+  padding: 0;
+  height: 50px;
+  align-items: center;
   gap: 28px;
   justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 1.5rem 0 0 0;
 }
 
 .header__nav-link {
@@ -840,7 +842,7 @@ body {
   line-height: 1.4;
   user-select: none;
 }
- 
+
 .contact__checkbox-label input[type="checkbox"] {
   position: absolute;
   opacity: 0;
@@ -848,18 +850,18 @@ body {
   height: 0;
   pointer-events: none;
 }
- 
+
 .contact__checkbox-custom {
   flex-shrink: 0;
   width: 20px;
-  height: 20px; 
+  height: 20px;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.03);
   position: relative;
   transition: all 0.3s ease;
   margin-top: 2px;
 }
- 
+
 .contact__checkbox-label
   input[type="checkbox"]:checked
   + .contact__checkbox-custom {
@@ -979,9 +981,7 @@ body {
   }
 }
 @media (max-width: 600px) {
-  .header__nav {
-    padding: 2rem 0;
-  }
+  
   .hero {
     min-height: 50vh;
   }
