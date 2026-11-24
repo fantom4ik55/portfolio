@@ -584,9 +584,8 @@ body {
   flex-wrap: wrap;
 }
 
-.header__nav-link {
-  /* color: var(--color-text-soft); */
-  color:green;
+.header__nav-link { 
+  color: var(--color-text-soft);
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
