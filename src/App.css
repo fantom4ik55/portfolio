@@ -239,7 +239,7 @@ a.hero__info-title:hover {
   will-change: transform;
 }
 
-.carousel__item { 
+.carousel__item {  
   -webkit-box-flex: 0;
   -ms-flex: 0 0 calc(100% / 4 - 17px);
   flex: 0 0 calc(100% / 4 - 17px);
