@@ -21,11 +21,11 @@ function Hero() {
           </p>
         </div>
 
-        <div className="hero__info-item">
+        <div className="hero__info-item-steck">
           <h3 className="hero__info-title">Стек</h3>
-          <p className="hero__info-text">
+          <div className="hero__info-text">
             <Steck/>
-            </p>
+            </div>
           <a
             className="hero__info-title"
             href="https://dev.1c-bitrix.ru/learning/resume.php?ID=83447633-8913574"
