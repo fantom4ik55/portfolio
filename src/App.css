@@ -163,6 +163,7 @@ a.hero__info-title {
 }
 a.hero__info-title:hover {
   color: var(--color-text);
+  text-decoration: none;
 }
 .hero__info-text {
   color: var(--color-text-dim);
@@ -234,14 +235,14 @@ a.hero__info-title:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 24px;
+  gap: 20px;
   will-change: transform;
 }
 
 .carousel__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 calc(100% / 3 - 16px);
-  flex: 0 0 calc(100% / 3 - 16px);
+  -ms-flex: 0 0 calc(100% / 4 - 17px);
+  flex: 0 0 calc(100% / 4 - 17px);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -376,6 +377,7 @@ a.hero__info-title:hover {
 .carousel__button--prev {
   position: absolute;
   top: 50%;
+  transform: translate(0, -50%);
 }
 
 .carousel__button--prev {
