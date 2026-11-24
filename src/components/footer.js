@@ -6,9 +6,10 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <p className="footer__tagline">
-            Web-разработчик  <Steck/>
-          </p>
+          <div className="footer__tagline">
+            Web-разработчик  
+            <Steck/>
+          </div>
         </div>
         <div className="footer__react"> 
           Разработано на 
