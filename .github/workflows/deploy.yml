@@ -32,5 +32,5 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: ./build/
-          server-dir: /alex-portfolio.ru/public_html/
+          server-dir: /var/www/u3721728/data/www/alex-portfolio.ru/
           dangerous-clean-slate: false
